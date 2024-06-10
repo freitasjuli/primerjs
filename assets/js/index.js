@@ -5,8 +5,6 @@ precioSpan = document.querySelector(".precio-inicial");
 precioSpan.innerHTML = precio;
 
 totalValor = document.querySelector(".cantidad");
-totalValor.innerHTML= cantidad;
 
 valorTotal = document.querySelector(".valor-total");
-valorTotal.innerHTML = Number(precio) * Number(cantidad);
-
+valorTotal.innerHTML = Number(precio) * Number(totalValor);
